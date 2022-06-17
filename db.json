@@ -1,0 +1,617 @@
+{
+  "users": [
+    {
+      "username": "krishna",
+      "password": "krishna@123",
+      "role": "admin",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "roopa",
+      "password": "roopa@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "rimika",
+      "password": "rimika@123",
+      "role": "customer",
+      "availabilityStatus": "Offline"
+    },
+    {
+      "username": "arun",
+      "password": "arun@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "roshan",
+      "password": "roshan@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "khalid",
+      "password": "khalid@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "pdtName": "Gamia Laptop",
+      "pdtPrice": 33000,
+      "pdtCode": "1",
+      "pdtDescription": "An excellent choice for an awesome gaming experience.",
+      "pdtCategory": "Electronics",
+      "avgFeedback": 3,
+      "purchasedUser": "roopa",
+      "pdtImg": "/images/Laptop.jpg",
+      "isReturned": true
+    },
+    {
+      "id": 2,
+      "pdtName": "Ind Mobile EX321",
+      "pdtPrice": 8999,
+      "pdtCode": "2",
+      "pdtDescription": "This will take you to next level of communication.",
+      "pdtCategory": "Electronics",
+      "avgFeedback": 4,
+      "purchasedUser": "rimika",
+      "pdtImg": "/images/Mobile.png",
+      "isReturned": false
+    },
+    {
+      "id": 3,
+      "pdtName": "Khaadi Shirt",
+      "pdtPrice": 982,
+      "pdtCode": "3",
+      "pdtDescription": "Best suitable for tropical climate.",
+      "pdtCategory": "Costumes",
+      "avgFeedback": 4,
+      "purchasedUser": "roopa",
+      "pdtImg": "/images/shirt.jpg",
+      "isReturned": true
+    },
+    {
+      "id": 4,
+      "pdtName": "SungSam Headphones",
+      "pdtPrice": 2200,
+      "pdtCode": "4",
+      "pdtDescription": "Excellent bluetooth headphones with good sound quality",
+      "pdtCategory": "Electronics",
+      "avgFeedback": 2,
+      "purchasedUser": "khalid",
+      "pdtImg": "/images/headphones.png",
+      "isReturned": false
+    }
+  ],
+  "feedbackDetails": [
+    {
+      "id": 1,
+      "pdtCode": "1",
+      "user": "John",
+      "body": "Awesome product at an affordable range. Go for it.",
+      "rating": 4.2
+    },
+    {
+      "id": 2,
+      "pdtCode": "1",
+      "user": "Bekie",
+      "body": "Not upto the mark. Gets heated soon",
+      "rating": 3.7
+    },
+    {
+      "id": 3,
+      "pdtCode": "1",
+      "user": "Calie",
+      "body": "Worst product. First of all , received very late. Forget about it",
+      "rating": 2.7
+    },
+    {
+      "id": 4,
+      "pdtCode": "2",
+      "user": "James",
+      "body": "Looks fine",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "pdtCode": "2",
+      "user": "Tessie",
+      "body": "good one at this range of price.",
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "pdtCode": "2",
+      "user": "Mic",
+      "body": "GPS less accurate. Rest everything is fine.",
+      "rating": 2
+    },
+    {
+      "id": 7,
+      "pdtCode": "3",
+      "user": "Nick",
+      "body": "Good for the climate.",
+      "rating": 4.3
+    },
+    {
+      "id": 8,
+      "pdtCode": "4",
+      "user": "Nancy",
+      "body": "",
+      "rating": 2
+    },
+    {
+      "id": 9,
+      "pdtCode": "4",
+      "user": "Dave",
+      "body": "",
+      "rating": 3
+    },
+    {
+      "id": 10,
+      "pdtCode": "2",
+      "user": "David",
+      "body": "Good one in this price range",
+      "rating": "3.5"
+    },
+    {
+      "pdtCode": "3",
+      "user": "Eric",
+      "body": "Nice.",
+      "rating": 3,
+      "id": 11
+    },
+    {
+      "pdtCode": "3",
+      "user": "Taylor",
+      "body": "good.",
+      "rating": 4,
+      "id": 12
+    },
+    {
+      "pdtCode": "3",
+      "user": "Arnold",
+      "body": "nice.",
+      "rating": 4,
+      "id": 13
+    },
+    {
+      "pdtCode": "3",
+      "user": "Sharon",
+      "body": "good one. not bad.",
+      "rating": 3,
+      "id": 14
+    },
+    {
+      "pdtCode": "3",
+      "user": "Philip",
+      "body": "not bad.",
+      "rating": "5",
+      "id": 15
+    },
+    {
+      "pdtCode": "1",
+      "user": "roopa",
+      "body": "average one.",
+      "rating": 3,
+      "id": 17
+    },
+    {
+      "pdtCode": "1",
+      "user": "David",
+      "body": "Good",
+      "rating": 2,
+      "id": 18
+    },
+    {
+      "pdtCode": "1",
+      "user": "Calie",
+      "rating": "5",
+      "id": 19
+    },
+    {
+      "pdtCode": "4",
+      "user": "Calie",
+      "body": "",
+      "rating": 2,
+      "id": 20
+    },
+    {
+      "pdtCode": "4",
+      "user": "Eric",
+      "body": "",
+      "rating": 2,
+      "id": 23
+    },
+    {
+      "feedback": "bad",
+      "rating": 1,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 24
+    },
+    {
+      "feedback": "bad",
+      "rating": 1,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 25
+    },
+    {
+      "feedback": "bad",
+      "rating": 2,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 26
+    },
+    {
+      "feedback": "bad",
+      "rating": 2,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 27
+    },
+    {
+      "feedback": "Cool",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "2",
+      "id": 28
+    },
+    {
+      "feedback": "Cool",
+      "rating": 2,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "2",
+      "id": 29
+    },
+    {
+      "feedback": "some",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "2",
+      "id": 30
+    },
+    {
+      "feedback": "some",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "2",
+      "id": 31
+    },
+    {
+      "feedback": "hello",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 32
+    },
+    {
+      "feedback": "poor fabric",
+      "rating": 1,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "3",
+      "id": 33
+    },
+    {
+      "feedback": "bad fabric",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "3",
+      "id": 34
+    },
+    {
+      "feedback": "Bad BAd",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "3",
+      "id": 35
+    },
+    {
+      "feedback": "bad very bad...",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "3",
+      "id": 36
+    },
+    {
+      "feedback": "bad bad bad bad",
+      "rating": 1,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "3",
+      "id": 37
+    },
+    {
+      "feedback": "nice",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "3",
+      "id": 38
+    },
+    {
+      "feedback": "simple sober",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "3",
+      "id": 39
+    },
+    {
+      "feedback": "eww",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "3",
+      "id": 40
+    },
+    {
+      "feedback": "Not good",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 41
+    },
+    {
+      "feedback": "asd",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 42
+    },
+    {
+      "feedback": "asd\n",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 43
+    },
+    {
+      "feedback": "asd",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 44
+    },
+    {
+      "feedback": "asd",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 45
+    },
+    {
+      "feedback": "",
+      "rating": 4,
+      "feedbackAck": "Thanks for your feedback.",
+      "productId": "1",
+      "id": 46
+    },
+    {
+      "feedback": "",
+      "rating": "5",
+      "feedbackAck": "",
+      "productId": "1",
+      "id": 47
+    },
+    {
+      "feedback": "",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 48
+    },
+    {
+      "feedback": "asdsd",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 49
+    },
+    {
+      "body": "adfssfsdfsdf",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 50
+    },
+    {
+      "body": "asdfg",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 51
+    },
+    {
+      "body": "asdfghj",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 52
+    },
+    {
+      "body": "asdfgh",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 53
+    },
+    {
+      "body": "asdasd",
+      "user": "roopa",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 54
+    },
+    {
+      "body": "asdghj",
+      "user": "",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 55
+    },
+    {
+      "body": "asdfghjklem,",
+      "user": "roopa",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 56
+    },
+    {
+      "body": "ok",
+      "user": "",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 57
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "4",
+      "id": 58
+    },
+    {
+      "body": "good",
+      "user": "roopa",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 59
+    },
+    {
+      "body": "good",
+      "user": "roopa",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 60
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 61
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "2",
+      "id": 62
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 63
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "1",
+      "id": 64
+    },
+    {
+      "body": "Ok",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "4",
+      "id": 65
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 66
+    },
+    {
+      "body": "ok",
+      "user": "roopa",
+      "rating": 4,
+      "feedbackAck": "Thanks for your feedback.",
+      "productId": "1",
+      "id": 67
+    },
+    {
+      "body": "Good",
+      "user": "roopa",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 68
+    },
+    {
+      "body": "good",
+      "user": "",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 69
+    },
+    {
+      "body": "Good",
+      "user": "",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "1",
+      "id": 70
+    },
+    {
+      "body": "ok",
+      "user": "",
+      "rating": 1,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "4",
+      "id": 71
+    },
+    {
+      "body": "ok",
+      "user": "",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "4",
+      "id": 72
+    },
+    {
+      "body": "ok",
+      "user": "",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "4",
+      "id": 73
+    },
+    {
+      "body": "Ok",
+      "user": "",
+      "rating": "5",
+      "feedbackAck": "Thanks for your feedback",
+      "productId": "4",
+      "id": 74
+    },
+    {
+      "body": "good",
+      "user": "",
+      "rating": 3,
+      "feedbackAck": "Thanks for your feedback. We will look in to the issue.",
+      "productId": "4",
+      "id": 75
+    }
+  ]
+}
